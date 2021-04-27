@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MainLayoutModule } from './main-layout/main-layout.module';
 import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
@@ -14,7 +13,6 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    MainLayoutModule,
     HttpClientModule
   ],
   providers: [],
